@@ -1,0 +1,32 @@
+Package: DeltaForecast
+Type: Package
+Title: Provides Quick Initial Impact Analysis
+Version: 0.1.0
+Author: Abhishek Shah
+Maintainer: Abhishek Shah <theartofcoding2048@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    assertthat,
+    checkmate,
+    dplyr,
+    janitor,
+    magrittr,
+    modeltime,
+    modeltime.ensemble,
+    parsnip,
+    readr,
+    recipes,
+    rsample,
+    tidyr,
+    timetk,
+    workflows
+Depends: 
+    R (>= 2.10)
